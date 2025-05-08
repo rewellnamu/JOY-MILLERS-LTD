@@ -1,9 +1,14 @@
-<header>
-  <nav>
-    <a routerLink="/">Home</a>
-    <a routerLink="/products" >Products</a>
-    <a routerLink="/about">About</a>
-    <a routerLink="/contact">Contact</a>
-    <a routerLink="/admin">Admin</a>
-  </nav>
+<header class="main-header">
+  <div class="container">
+    <div class="logo">
+      <a routerLink="/">JOYMILLERS</a>
+    </div>
+    <nav class="nav-links">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+      <a routerLink="/products" routerLinkActive="active">Products</a>
+      <a routerLink="/about" routerLinkActive="active">About</a>
+      <a routerLink="/contact" routerLinkActive="active">Contact</a>
+      <a routerLink="/admin" routerLinkActive="active">Admin</a>
+    </nav>
+  </div>
 </header>
