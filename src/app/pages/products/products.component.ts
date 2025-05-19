@@ -2,74 +2,74 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  standalone: true,
   selector: 'app-products',
+  standalone: true,
   imports: [ CommonModule ],
   templateUrl: './products.component.html',
-  styleUrl: './products.component.scss',
+  styleUrls: ['./products.component.scss'],
 })
 export class ProductsComponent {
   products = [
     {
       name: 'Raha Premium - Kavagara Grade 1 Sifted And Fortified Maize Meal',
       description: 'High-quality maize flour for all your cooking needs.',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/raha-ugali.png',
+      image: '',
     },
     {
       name: 'Raha Premium Fortified Multipurpose Home Baking Flour',
       description: 'Perfect for baking and specialty recipes.',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/raha-ngano.png',
+      image: '',
     },
     
     {
       name: 'Joymax Mwivoko - Grade 1 Sifted And Fortified Maize Meal',
       description: 'High-quality maize flour for all your cooking needs.',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/raha-mavoko.png',
+      image: '',
     },
     {
       name: 'Raha Premium - Bakers Flour Available In 25 & 50kgs',
       description: 'Perfect for baking and specialty recipes.',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/flour1.png',
+      image: '',
     },
     {
       name: 'Raha Premium Fortified Multipurpose Whole Meal Flour (Atta Mark 1)',
       description: 'Perfect for baking and specialty recipes.',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/flour2.png',
+      image: '',
     },
     {
       name: 'Raha Premium Fortified Multipurpose Home Baking Flour - 50kgs',
       description: 'Perfect for baking and specialty recipes.',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/flour3.png',
+      image: '',
     },
     {
       name: 'Joymax Chick Mash',
       description: 'perfect for chickens and poultry.',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/chick-mash.png',
+      image: '',
     },
     {
       name: 'Joymax Growers Mash',
       description: 'perfect for growers',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/growers-mash.png',
+      image: '',
     },
     {
       name: 'Joymax Sow & Weaner Meal',
       description: 'Perfect for weaners and sows.',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/joymax.png',
+      image: '',
     },
     {
       name: 'Joymax Dairy Meal',
       description: 'Perfect for dairy cows and milk production.',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/dairy.png',
+      image: '',
     },
     {
       name: 'Joymax High yield',
       description: 'Perfect for high yield and production.',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/yield.png',
+      image: '',
     },
     {
       name: 'Joymax Kienyeji Mash',
       description: 'Perfect for kienyeji chickens and poultry.',
-      image: 'https://joymillerslimited.co.ke/final/img/shop/kienyeji.png',
+      image: '',
     },
   ];
 }

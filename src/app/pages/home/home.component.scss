@@ -1,16 +1,18 @@
 :host {
-    display: block;
-    background-color: #121212;
-    color: #f0f0f0;
+   
+   
+    color: #0a0a0a;
     font-family: 'Poppins', sans-serif;
   }
   
   .hero {
     padding: 5rem 2rem;
     text-align: center;
+    background: url('/joymillspr/home.webp') no-repeat center center/cover;
+    height: 100vh;
   
     .hero-content {
-      background-color: rgba(255, 255, 255, 0.05);
+      background-color: transparent;
       display: inline-block;
       padding: 2.5rem;
       border-radius: 1rem;
@@ -76,8 +78,7 @@
       border-radius: 0.75rem;
       padding: 1rem;
       width: 220px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      
 
       &:hover {
         transform: scale(1.05);
@@ -98,19 +99,24 @@
   
   .btn-secondary {
     display: inline-block;
-    padding: 0.5rem 1.25rem;
-    background: #ffc843;
-    color: #db0f0f;
-    border: 2px solid #161616;
+    padding: 0.7rem 1.7rem;
+    background: linear-gradient(90deg, #ffc843 0%, #f4a300 100%);
+    color: #181818;
+    border: none;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.08rem;
     margin-top: 1rem;
-    transition: background 0.3s ease;
-  
-    &:hover {
-      background: #f4a300;
-      color: #121212;
+    box-shadow: 0 2px 8px rgba(244, 163, 0, 0.08);
+    transition: background 0.3s, color 0.3s, transform 0.2s, box-shadow 0.2s;
+
+    &:hover, &:focus {
+      background: linear-gradient(90deg, #f4a300 0%, #ffc843 100%);
+      color: #fff;
+      transform: translateY(-2px) scale(1.04);
+      box-shadow: 0 4px 16px rgba(244, 163, 0, 0.18);
+      outline: none;
     }
   }
   
